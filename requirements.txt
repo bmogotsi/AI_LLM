@@ -1,4 +1,4 @@
 streamlit
 openai
 langchain
-pip install --upgrade typing-extensions
+langchain_community
