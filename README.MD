@@ -14,9 +14,11 @@
 		>>> OpenAI API keys
 		
 ## Installation and updating
-	>> pip install openai
-	>> pip install langchain
+	>> pip install openai --upgrade
+	>> pip install langchain --upgrade
 	>> pip install streamlit --upgrade
+	>> pip install --upgrade typing-extensions
+	>> pip install -U langchain-community
 
 ## Usage
 
@@ -36,7 +38,7 @@
 			https://streamlit.io/cloud
 			click the "New app" button from your workspace, 
 			and specify the repository, branch, and main file path. 
-			branch: https://github.com/bmogotsi/AI_LLM/tree/main/LLMs_app_001
+			branch: main
 			main file path: /LLMs_app_001/app.py
 		>> Click the Deploy button, 
 			and your LLM application will now be deployed to Streamlit Community Cloud and can be accessed globally.
