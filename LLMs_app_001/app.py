@@ -8,7 +8,7 @@
 import streamlit as st
 
 # from langchain import llms
-from langchain.llms import OpenAI
+from langchain_community.llms import OpenAI
 
 # Setting the title of the Streamlit application
 st.title('Simple LLM-App 🤖')
